@@ -1,0 +1,48 @@
+html
+  head
+    title HTML | PUG
+    link(rel="stylesheet", href="style.css")
+
+  body
+    h1 Bem-vindo à Página Pug
+
+    h2 Lista Ordenada
+    ol
+      li Item 1
+      li Item 2
+      li Item 3
+
+    h2 Lista Não Ordenada
+    ul
+      li Item A
+      li Item B
+      li Item C
+
+    h2 Link
+    p
+      a(href="https://www.example.com") Visite o exemplo.com
+
+    h2 Tabela
+    table
+      tr
+        th Nome
+        th Idade
+        th Cidade
+      tr
+        td João
+        td 30
+        td São Paulo
+      tr
+        td Maria
+        td 25
+        td Rio de Janeiro
+
+    h2 Formulário
+    form(action="/submit", method="POST")
+      label(for="nome") Nome:
+      input(type="text", id="nome", name="nome")
+
+      label(for="email") Email:
+      input(type="email", id="email", name="email")
+
+      button(type="submit") Enviar
