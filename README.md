@@ -18,14 +18,20 @@ Exemplificação do pré-processador HTML denominado PUG
 
         1.  Download do repositório
         2.  Descompacte para o diretório desejado
-		
+        3.  Obseve o package.json e veja o comado a ser executado
+        4.  Execute o comando npm run dev para gerar o index.html
+        5.  Rode a página no navegador de sua preferência		
 
 ## 🚧 Estrutura do Projeto
 
 ```sh
 .
-├── README.md
+├── .gitignore
 ├── index.html
+├── index.pug
+├── package-lock.json
+├── package.json
+├── README.md
 └── style.css
 ```
 
